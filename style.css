@@ -1,0 +1,26 @@
+.Datos{
+    background-color: rgb(231, 233, 109);   /* Agregamos color de fondo */
+    font-family: Georgia, 'Times New Roman', Times, serif;     /* Cambio de fuente a georgia */
+    text-align: center;     
+    text-decoration: azure;
+    font-size: 25px;
+    
+}
+
+.Tabla{
+    display: flex;      
+    justify-content: center;
+    height: 200px;
+       
+}
+
+.Titulo {             
+    background-color: rgb(14, 230, 219);
+    
+}
+
+
+input{
+    font: size 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

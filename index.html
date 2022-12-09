@@ -1,0 +1,67 @@
+<!DOCTYPE html>   <!-- Estructura basica de html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title> <!-- Se Añade un titulo -->
+    <link rel="stylesheet" href="style.css"> <!-- Se referencia el .css  -->
+</head>
+<body>
+<div class="Tabla">
+    <table class="Datos">
+<tr class="Titulo">
+    <th>N° de socio</th>
+    <th>Apellidos</th>
+    <th>Nombres</th>
+    <th>Ciudad</th>
+    <th>Fecha Inicio</th>
+
+</tr>
+<tr>
+    <td><i>2421</i></td>
+    <td><i>Pérez Martinez</i></td>
+    <td><i>Juan José</i></td>
+    <td><i>Portoviejo</i></td>
+    <td><i>2022-11-01</i></td>
+</tr>
+<tr>
+    <td><i>4438</i></td>
+    <td><i>Martínez Gómez</i></td>
+    <td><i>María Beatriz</i></td>
+    <td><i>Manta</i></td>
+    <td><i>2022-01-01</i></td>
+</tr>
+<tr>
+    <td><i>4334</i></td>
+    <td><i>Gómez Rodríguez</i></td>
+    <td><i>Carlos Alberto</i></td>
+    <td><i>Chone</i></td>
+    <td><i>2022-05-01</i></td>
+</tr>
+<tr>
+    <td><i>4523</i></td>
+    <td><i>Rodríguez Moreno</i></td>
+    <td><i>Sofía Ana</i></td>
+    <td><i>Bahía</i></td>
+    <td><i>2022-02-01</i></td>
+</tr>
+
+    </table>
+
+</div class="Formulario">
+
+<br>
+<div><!--Creación de los campos del formulario -->
+    <form action="guardar.php" method="post" enctype="multipart/form">
+        <input type="text" name="Nombres" placeholder="Ingrese su nombre....">
+        <input type="text" name="Apellidos" placeholder="Ingrese su apellido....">
+        <input type="text" name="Ciudad" placeholder="Ingrese su ciudad......">
+        <input type="date" name="Fecha de Inicio">
+        <input type="file" name="Foto">
+        <input type="file" name="Comprobante pago">
+        
+    </form>
+</div>
+</body>
+</html
